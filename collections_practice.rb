@@ -41,6 +41,4 @@ def sum_array(num)
 end
 
 def add_s(array)
-  array.each_with_index.collect{|element,}
-  end
 end
