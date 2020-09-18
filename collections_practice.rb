@@ -44,8 +44,8 @@ end
 
 def add_s(array)
 array.map {|x| "#{x}s"}
-if array[1] == feet
-  ("").chomp
+if array[1] == "feet"
+  puts feet
   end
 
 end
