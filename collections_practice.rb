@@ -47,6 +47,6 @@ if array == feet
   ("").chomp
 else
   array.map {|x| "#{x}s"}
-
+end
 
 end
