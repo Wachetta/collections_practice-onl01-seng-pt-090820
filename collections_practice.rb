@@ -39,8 +39,10 @@ end
 
 def sum_array(num)
  num.inject { |sum, n| sum + n }
-binding.pry
+#binding.pry
 end
 
 def add_s(array)
+  array.each_with_index {|x| "#{x}s"
+    array[2].chomp
 end
