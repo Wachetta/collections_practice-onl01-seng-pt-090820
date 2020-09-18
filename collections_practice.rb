@@ -43,9 +43,9 @@ def sum_array(num)
 end
 
 def add_s(array)
-array.map do |x|
-if x != array[1]
-  x << "s"
-  end
-
+  array.map do |x|
+    if x != array[1]
+      x << "s"
+      end
+    end
 end
