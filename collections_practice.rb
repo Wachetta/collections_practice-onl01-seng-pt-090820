@@ -43,7 +43,7 @@ def sum_array(num)
 end
 
 def add_s(array)
-  array.each_with_index {|x| "#{x}s"}
+  array.map {|x| "#{x}s"}
     array[1].chomp
-      array
+
 end
