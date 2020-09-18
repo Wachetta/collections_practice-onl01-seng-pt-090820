@@ -46,4 +46,3 @@ def add_s(array)
   array.each_with_index {|x| "#{x}s"}
     array[2].chomp
 end
-end
