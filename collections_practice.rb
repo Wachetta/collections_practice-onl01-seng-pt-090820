@@ -43,7 +43,7 @@ def sum_array(num)
 end
 
 def add_s(array)
-if array == feet
+if array[2] == feet
   ("").chomp
 else
   array.map {|x| "#{x}s"}
