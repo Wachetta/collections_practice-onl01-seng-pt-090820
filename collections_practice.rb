@@ -1,4 +1,4 @@
-
+require 'pry'
 def sort_array_asc(array)
   array.sort
 end
@@ -20,6 +20,7 @@ end
 
 def reverse_array(array)
   array.reverse
+binding.pry
 end
 
 def kesha_maker(array)
@@ -30,7 +31,7 @@ end
 
 
 def find_a(array)
-  array.map{|x| "#{x}".start_with?("a") }
+if array.start_with?("a")
     end
 
 
@@ -40,8 +41,6 @@ def sum_array(num)
 end
 
 def add_s(array)
-  array.map{|x| "#{x}s"}
-    if array[1]
-    array - "s"
+  array.each_with_index.collect{|element,}
   end
 end
