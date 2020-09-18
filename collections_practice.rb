@@ -31,8 +31,7 @@ end
 
 
 def find_a(array)
-if array.start_with?("a")
-    end
+end
 
 
 
