@@ -20,7 +20,7 @@ end
 
 def reverse_array(array)
   array.reverse
-binding.pry
+#binding.pry
 end
 
 def kesha_maker(array)
@@ -37,6 +37,7 @@ end
 
 def sum_array(num)
  num.inject { |sum, n| sum + n }
+binding.pry
 end
 
 def add_s(array)
